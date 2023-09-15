@@ -46,13 +46,60 @@
 # sec = input("Digite os segundos: ")
 # print(hr + ":" + min + ":" + sec)
 
-### 7 -Declare duas variáveis com números de telefone, incluindo um código de área e o número principal. Concatene esses valores para formar um número de telefone completo.
-n1 = 942088002
-n2 = 991521417
-pais = 55
-cod_area = input("Digite o seu codigo de area: "))
-print(pais,cod_area + n1)
+### 7 - Declare duas variáveis com números de telefone, incluindo um código de área e o número principal. Concatene esses valores para formar um número de telefone completo.**
+# n1 = 942088002
+# n2 = 991521417
+# cod_area = int(input("Digite o seu codigo de area: "))
+# print(cod_area,n1)
+# print(cod_area,n2)
 
-### 8 - Crie uma lista de ingredientes para uma receita. Use concatenação para formar uma única string que liste os ingredientes separados por vírgulas.
+### 8 - Crie uma lista de ingredientes para uma receita. Use concatenação para formar uma única string que liste os ingredientes separados por vírgulas.**
+# ingrediente1 = input("Digite aqui o primeiro ingrediente: ")
+# ingreditente2 = input("Digite aqui o segundo ingrediente: ")
+# ingreditente3 = input("Digite aqui o terceiro ingrediente: ")
+# receita = (ingrediente1 + "," + ingreditente2 + "e" + ingreditente3)
+# print(receita)
 
 ### 9 - Peça ao usuário para digitar três adjetivos e armazene-os em variáveis. Em seguida, use essas palavras para criar uma frase concatenada que descreve algo interessante.
+# adj1 = input("Digite o primeiro adjetivo: ")
+# adj2 = input("Digite o segundo adjetivo: ")
+# adj3 = input("Digite o terceiro adjetivo: ")
+# frase = ("Você é muito " + adj1 + " e tem " + adj2 + " e parece que é," +adj3)
+# print(frase)
+
+# ATIVIDADE 3 → IF()
+### 1 - Crie uma condição para comparar idades: 45 e 18 -  QUAL É MENOR E QUAL É MAIOR?**
+# idade1 = int(input("Digite a idade da primeira pessoa: "))
+# idade2 = int(input("Digite a idade da segunda pessoa: "))
+# if (idade1 > idade2):
+#     print("A primeira pessoa é mais velha que a segunda pessoa!")
+# else:
+#         print("A segunda idade é maior!")
+
+### 2 - Crie um sistema para permitir a verificação de menores em um show**
+# meliante1 = int(input("Digite aqui a sua idade: "))
+# if (meliante1 < 18):
+#       print("Você é menor de idade para chapar o globo, volte para casa pivete!")
+# else:
+#         print("Seja bem vindo ao nosso evento, beba com moderação!")
+
+
+### 3 - Crie um algoritmo que permita a entrada de 3 notas de alunos, utilize o bloco de código if() para verificar se o aluno passou.
+
+# n1 = int(input("Digite a nota da prova do primeiro aluno: "))
+# if (n1 >= 7):
+#     print("Aluno foi aprovado, parabéns!")
+# else:
+#         print("Aluno foi reprovado, estude mais!")
+
+# n2 = int(input("Digite a nota da prova do segundo aluno: "))
+# if (n2 >= 7):
+#     print("Aluno foi aprovado, parabéns!")
+# else:
+#         print("Aluno foi reprovado, estude mais!")
+
+# n3 = int(input("Digite a nota da prova do terceiro aluno: "))
+# if (n3 >= 7):
+#     print("Aluno foi aprovado, parabéns!")
+# else:
+#         print("Aluno foi reprovado, estude mais!")
